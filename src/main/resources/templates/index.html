@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Medical Store</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="menu">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="images/mainicon.png" width="120px" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+        	Ваш город: Алматы <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Контакты</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Доставка</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Аптеки</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-2">
+      <input class="form-control mr-sm-8" type="search" placeholder="Поиск лекарств" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-2" type="submit">Поиск</button>
+    </form>
+  </div>
+</nav>	
+	</div>
+	<div class="menu2">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Каталог товаров
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Лекарственные средства</a>
+	          <a class="dropdown-item" href="#">Витавины и бады</a>
+	          <a class="dropdown-item" href="#">Изделия мед. назначения</a>
+	          <a class="dropdown-item" href="#">Красота и гигиена </a>
+	          
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	        </li>	
+	        <li class="nav-item"> 
+	        	<a href="register">Register</a>
+	        </li>
+	        <li class="nav-item"> 
+	        	<a href="#">Login</a>
+	        </li>
+	        
+		</ul>
+			
+	</div>
+
+	<div class="wrapper">
+		
+		<p class="promo">
+			Акционные Товары	
+		</p>
+		<div class="items">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/drug.jpg" alt="">
+					<p class="namedrug">Хидролес 500 мг</p>
+					<p class="pricedrug">5700тг</p>
+					<p class="basket">
+						<a href="#" class="">
+							<button class="btn btn-outline-success">
+								Корзина									
+							</button>
+						</a>						
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Very long link 1</a>
+            </li>
+            <li>
+              <a href="#!">Very long link 2</a>
+            </li>
+            <li>
+              <a href="#!">Very long link 3</a>
+            </li>
+            <li>
+              <a href="#!">Very long link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
